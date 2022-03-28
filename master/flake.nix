@@ -11,7 +11,6 @@
   inputs.src-fmod-master.ref   = "refs/heads/master";
   inputs.src-fmod-master.owner = "johnnovak";
   inputs.src-fmod-master.repo  = "nim-fmod";
-  inputs.src-fmod-master.dir   = "";
   inputs.src-fmod-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
